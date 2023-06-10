@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import WebDesign from "./WebDesign";
-import Development from "./Development";
+
 import ProductDesign from "./ProductDesign";
 
 const data = [
@@ -17,6 +17,10 @@ const Section = styled.div`
   scroll-snap-align: center;
   display: flex;
   justify-content: center;
+  position: relative;
+  color: black;
+  font-size:14px;
+  font-weight: 300;
 `;
 
 const Container = styled.div`
@@ -24,12 +28,22 @@ const Container = styled.div`
   display: flex;
   justify-content: space-between;
 
+  @media only screen and (max-width: 768px){
+    width: 100%;
+    flex-direction: column;
+  }
+
 `;
 
 const Left = styled.div`
   flex: 1;
   display: flex;
   align-items: center;
+
+  @media only screen and (max-width: 768px){
+    padding: 20px;
+    justify-content: center;
+  }
 `;
 
 const List = styled.ul`
@@ -46,6 +60,12 @@ const ListItem = styled.li`
   color: transparent;
   -webkit-text-stroke: 1px white;
   position: relative;
+
+  @media only screen and (max-width: 768px){
+    font-size: 24px;
+    color: white;
+    -webkit-text-stroke: 0px;
+  }
 
   ::after {
     content: "${(props) => props.text}";
@@ -92,8 +112,6 @@ const Works = () => {
         <Right>
           {work === "Web Design" ? (
           <WebDesign/>
-          ) : work === "Development" ? (
-          <Development/>
           ) : (
           <ProductDesign/>)}
         </Right>
