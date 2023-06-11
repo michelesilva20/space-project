@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <img src="./img/space-portfolio.gif" alt="Demonstration video" />
+  <img src="public/img/space-portfolio.gif" alt="Demonstration video" />
 </div>
 
 <div align="center">
