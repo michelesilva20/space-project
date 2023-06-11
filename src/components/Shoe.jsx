@@ -3,7 +3,7 @@ import * as THREE from "three";
 import { useGLTF } from "@react-three/drei";
 
 export default function Shoe({ color, ...props }) {
-  const { nodes, materials } = useGLTF("space-project/shoe.gltf");
+  const { nodes, materials } = useGLTF("/space-project/shoe.gltf");
   return (
     <group {...props} dispose={null}>
       <mesh

@@ -2,7 +2,6 @@ import React, { useRef } from "react";
 import { useGLTF } from "@react-three/drei";
 import { a as three } from "@react-spring/three";
 
-
 export default function Mac({ ...props }) {
   const group = useRef();
   const { nodes, materials } = useGLTF("/space-project/mac-draco.glb");
