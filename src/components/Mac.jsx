@@ -2,9 +2,10 @@ import React, { useRef } from "react";
 import { useGLTF } from "@react-three/drei";
 import { a as three } from "@react-spring/three";
 
+
 export default function Mac({ ...props }) {
   const group = useRef();
-  const { nodes, materials } = useGLTF("/mac-draco.glb");
+  const { nodes, materials } = useGLTF("/space-project/mac-draco.glb");
   return (
     <group ref={group} {...props} dispose={null} >
       <group position={[0, 2.96, -0.13]} rotation={[Math.PI / 2, 0, 0]}>
