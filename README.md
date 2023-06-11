@@ -1,20 +1,24 @@
 <div align="center">
-  <h1>Portfólio Espacial 🚀👨‍🚀</h1>
+  <h1>Space Portfolio 🚀👨‍🚀</h1>
 </div>
 
 <div align="center">
-  <h3><a href="https://michelesilva20.github.io/space-project/" target="_blank">Veja o projeto!</a></h3>
+  <img src="./img/space-portfolio.gif" alt="Demonstration video" />
+</div>
+
+<div align="center">
+  <h3><a href="https://michelesilva20.github.io/space-project/" target="_blank">Explore the project!</a></h3>
 </div>
 
 <div>
-    <h2>📖 Descrição</h2>
-    <p><strong>Portfólio Espacial</strong> é um portfólio landing page com foco em componentes 3D, realizado com suporte de um vídeo no youtube, aonde ensina o processo completo de criação do site e o uso das ferramentas!</p>
+    <h2>📖 Description</h2>
+    <p><strong>Space Portfolio</strong> is a landing page portfolio with a focus on 3D components, created with the support of a YouTube video that teaches the complete process of website creation and the use of tools!</p>
 
-  <p><a href="https://www.youtube.com/watch?v=qALsVa-V9qo" target="_blank">Acesse o video tutorial do Lama Dev</a></p>
+  <p><a href="https://www.youtube.com/watch?v=qALsVa-V9qo" target="_blank">Access the tutorial video by Lama Dev.</a></p>
 </div>
 
 <div>
-  <h2>💻 Tecnologias</h2>
+  <h2>💻 Technologies</h2>
   <ul>
     <li>React.js</li>
     <li>CSS</li>
